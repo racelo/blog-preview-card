@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  background-color: #f4d04e;
+  height: 100dvh;
+  /* dvh is a fairly new css unit(?) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 384px;
+  background-color: #fff;
+  padding: 24px;
+}
+
+.blog-img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.content {
+  margin-top: 24px;
+}
+
+#author {
+  margin-top: 24px;
+}
