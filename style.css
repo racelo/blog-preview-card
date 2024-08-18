@@ -34,3 +34,36 @@ body {
 #author {
   margin-top: 24px;
 }
+
+.content {
+  /* line-height: 1.5; */
+}
+
+.category,
+#publish-date {
+  font-size: 14px;
+}
+
+.category {
+  background-color: #f4d04e;
+  /* width: 100px; */
+  display: inline-block;
+  padding: 4px 12px;
+  font-weight: 800;
+  border-radius: 4px;
+}
+
+#publish-date {
+  margin-top: 12px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 12px;
+}
+
+.description {
+  margin-top: 12px;
+  color: ;
+}
