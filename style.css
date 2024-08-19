@@ -10,13 +10,15 @@
 body {
   font-family: "Figtree", sans-serif;
   background-color: #f4d04e;
-  height: 100dvh;
+  min-height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .card {
+  margin: auto;
   width: 336px;
   background-color: #fff;
   padding: 24px;
@@ -74,9 +76,10 @@ footer {
   gap: 8px;
 }
 
-/* .attribution {
-  margin-top: 50px;
-} */
+.attribution {
+  margin-top: auto;
+  padding-bottom: 4px;
+}
 
 @media only screen and (max-width: 768px) {
   .card {
